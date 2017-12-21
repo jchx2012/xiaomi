@@ -1,0 +1,216 @@
+.log{
+    width: 1130px;
+    height: 98px;
+}
+section{
+    background-color: #15222b;
+}
+.adv{
+    width: 1130px;
+    height: 589px;
+    background: url("../img/banner.jpg") round;
+    position: relative;
+}
+.hid{
+    display: none;
+}
+.login{
+    width: 400px;
+    min-height: 524px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    top: calc(50% - 264px);
+    padding: 0 30px;
+}
+.select{
+    padding: 25px 0 30px 30px;
+}
+.select a{
+    font-size: 24px;
+    color: #666;
+}
+.select a.active{
+    color: #f56600;
+}
+.select span{
+    font-size: 25px;
+    color: #e0e0e0;
+    margin: 0 35px;
+}
+.data input[type="text"],.data input[type="password"]{
+    width: 323px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    outline: none;
+}
+.data input[type="submit"]{
+    width: 340px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #f56600;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.error{
+    font-size: 14px;
+    color: #f56600;
+    margin-bottom: 5px;
+}
+.error span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: white;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    background-color: #f56600;
+    border-radius: 50%;
+}
+.register{
+    margin-top: 15px;
+    text-align: center;
+}
+.register a,.register span{
+    font-size: 14px;
+    color: #999;
+    padding-right: 7px;
+}
+.register a:hover{
+    color: #f56600;
+}
+.otherLogin{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+.otherLogin div:nth-of-type(1) span{
+    display: inline-block;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.otherLogin div:nth-of-type(1) span:nth-of-type(2n+1){
+    width: 120px;
+    height: 1px;
+    background-color: #d0d0d0;
+    vertical-align: middle;
+}
+.otherLogin div:nth-of-type(2){
+    margin-top: 15px;
+}
+.otherLogin div:nth-of-type(2) a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 32px;
+    border-radius: 50%;
+    background-color: #757575;
+    vertical-align: middle;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(2){
+    background-color: #555;
+}
+.otherLogin div:nth-of-type(2) a:last-of-type{
+    margin-right: 0;
+}
+.otherLogin div:nth-of-type(2) a>i{
+    display: inline-block;
+    background-image: url("../img/icons_type.png");
+    background-repeat: no-repeat;
+    margin-top: 7px;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(1)>i{
+    width: 15px;
+    height: 15px;
+    margin-left: 1px;
+    background-position: -21px -2px;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(2)>i{
+    width: 18px;
+    height: 15px;
+    background-position: -38px -2px;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(3)>i{
+    width: 25px;
+    height: 20px;
+    margin-left: 4px;
+    background-position: -57px 0;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(2n+1):hover{
+    background-color: #0288d1;
+}
+.otherLogin div:nth-of-type(2) a:nth-of-type(2n):hover{
+    background-color: #d32f2f;
+}
+.QRCode{
+    width: 400px;
+    min-height: 524px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    top: calc(50% - 264px);
+    padding: 0 30px;
+}
+.QRImg{
+    text-align: center;
+    padding-top: 72px;
+}
+.QRImg i{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background: url("../img/QRImg.png");
+}
+.explain{
+    text-align: center;
+    margin-top: 15px;
+}
+.explain span{
+    font-size: 14px;
+    color: #757575;
+}
+.explain span:nth-of-type(2){
+    color: #f56600;
+}
+footer{
+    margin-top: 65px;
+}
+footer div:nth-of-type(1),footer div:nth-of-type(2){
+    text-align: center;
+}
+footer div:nth-of-type(1) a{
+    display: inline-block;
+    margin-right: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #757575;
+    color: #757575;
+    font-size: 10px;
+    line-height: 10px;
+}
+footer div:nth-of-type(1) a:last-of-type{
+    border: none;
+}
+footer div:nth-of-type(1) a:hover{
+    color: #333;
+}
+footer div:nth-of-type(1) a.active{
+    color: #333;
+}
+footer div:nth-of-type(2){
+    margin: 10px 0 30px;
+    font-size: 0;
+}
+footer div:nth-of-type(2) a,footer div:nth-of-type(2) span{
+    vertical-align: bottom;
+    color: #757575;
+    font-size: 12px;
+}
